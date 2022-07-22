@@ -1,11 +1,16 @@
 import React from 'react'
-
-function Greet(props) {
-    console.log(props.name)
+//destructure
+function Greet({name}) {
+  function clickHandler(){
+    console.log('button clicked')
+  }
+    
   return (
     <div>
-        <h1>Hello {props.name} </h1>
-        {props.children}
+        <h1>Hello {name} </h1>
+        {/* event handling */}
+        <button onClick={clickHandler}>Click</button>
+      
     </div>
   )
 
