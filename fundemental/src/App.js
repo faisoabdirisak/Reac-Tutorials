@@ -5,8 +5,12 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Greet/>
-        <ClassComp/>
+        <Greet name='faska'>
+          <p>This is children props</p> 
+        </Greet>
+       <Greet name='faiso'/>
+      <ClassComp name='faska'/>
+
       </div>
     )
   }

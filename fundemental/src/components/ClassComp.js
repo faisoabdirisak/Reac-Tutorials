@@ -5,7 +5,7 @@ class ClassComp extends Component {
   render() {
     return (
       <div>
-        <h1>Welcome from Class Component</h1>
+        <h1>Welcome from {this.props.name}</h1>
       </div>  
     )
   }
