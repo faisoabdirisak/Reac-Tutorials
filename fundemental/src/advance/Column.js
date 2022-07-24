@@ -1,0 +1,14 @@
+import React from 'react'
+
+function Column() {
+  return (
+    <React.Fragment>
+        <td>
+            name
+        </td>
+        <td>Faska</td>
+    </React.Fragment>
+  )
+}
+
+export default Column
